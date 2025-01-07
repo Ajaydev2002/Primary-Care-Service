@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-family:"Onest",sans-serif;
+}
+.main-container {
+    width: 100%;
+    max-width: 1540px;
+    margin: auto;
+}
+
+#find-doctor-header {
+    padding-inline: 120px;
+}
+.find-doctor-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-image {
+    width: 140px;
+    padding-block: 23px;
+}
+
+.header-navlist {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.header-navlist div:hover {
+   cursor: pointer;
+}
+.get-care {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: #00337f;
+    font-size: 18px;
+}
+.location {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: #00337f;
+    font-size: 18px;
+}
+.patient-resource {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: #00337f;
+    font-size: 18px;
+}
+.mychart {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: #00337f;
+    font-size: 18px;
+}
+
+.find-doctor-btn-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.find-btn {
+    background-color: #00337f;
+    padding-block: 13px;
+    padding-inline: 20px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.find-btn:hover {
+    cursor: pointer;
+    background-color: #011d46;
+}
+.search-icon {
+    font-size: 20px;
+    color: #00337f;
+}
+.search-icon:hover {
+    cursor: pointer;
+}
+
+
+#find-a-doctor {
+    padding-inline: 120px;
+    background-color: #d9e2f0;
+}
+.find-a-doctor-container {
+    display: flex;
+    justify-content: space-between;
+}
+.find-a-doctor-header {
+    display: flex;
+    padding-top: 50px;
+}
+.house-icon {
+    color: #00337f;
+}
+.arrow-right {
+    color: grey;
+    padding-inline: 12px;
+}
+.form-heading h1 {
+    font-family: serif;
+    font-size: 60px;
+    font-weight: 400;
+    padding-block: 30px;
+}
+
+
+.find-a-doctor-form {
+    background-color: #fff;
+}
+#insurance-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.find-by-name {
+    border-bottom: 1.5px solid #d9e2f0;
+}
+.find-by-name input {
+    width: 520px;
+    height: 65px;
+    outline: none;
+    font-size: 20px;
+    padding-inline: 20px;
+    font-family: roboto;
+    font-weight: 300;
+}
+.find-by-name ::placeholder {
+    font-size: 16px;
+    color: rgb(117, 113, 113);
+    font-family: roboto;
+    font-weight: 300;
+}
+.find-by-city {
+    border-bottom: 1.5px solid #d9e2f0;
+}
+.find-by-city input {
+    width: 520px;
+    height: 65px;
+    outline: none;
+    font-size: 20px;
+    padding-inline: 20px;
+    font-family: roboto;
+    font-weight: 300;
+}
+.find-by-city ::placeholder {
+    font-size: 16px;
+    color: rgb(117, 113, 113);
+    font-family: roboto;
+    font-weight: 300;
+}
+.find-by-insurance input {
+    width: 500px;
+    height: 65px;
+    outline: none;
+    font-size: 20px;
+    padding-inline: 20px;
+    font-family: roboto;
+    font-weight: 300;
+}
+.find-by-insurance ::placeholder {
+    font-size: 16px;
+    color: rgb(117, 113, 113);
+    font-family: roboto;
+    font-weight: 300;
+}
+.find-by-insurance {
+    border-bottom: 1.5px solid #d9e2f0;
+}
+.find-by-insurance i {
+    padding-right: 20px;
+}
+.search-button {
+    padding-inline: 20px;
+}
+.search-btn{
+    background-color: #00337f;
+    padding-block: 13px;
+    width: 100%;
+    color: #fff;
+    border-radius: 50px;
+    margin-block: 30px;
+    font-size: 16px;
+}
+
+.insurance-img{
+    width: 700px;
+    padding-top: 145px;
+}
