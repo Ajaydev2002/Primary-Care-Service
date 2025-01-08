@@ -22,23 +22,21 @@
                     <img src="./Images/primary care logo.svg" class="header-image">
                 </div>
 
-                <div class="header-navlist">
-                    <div class="get-care">
-                        <p>Get Care</p>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <div class="location">
-                        <p>Locations</p>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <div class="patient-resource">
-                        <p>Patient Resources</p>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <div class="mychart">
-                        <p>MyChart</p>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
+                <div class="get-care">
+                    <p>Get Care</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="location">
+                    <p>Locations</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="patient-resource">
+                    <p>Patient Resources</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="mychart">
+                    <p>MyChart</p>
+                    <i class="fa-solid fa-angle-down"></i>
                 </div>
 
                 <div class="find-doctor-btn-content">
@@ -74,13 +72,64 @@
                                 <input type="text" placeholder="City or Zip">
                             </div>
                             <div class="find-by-insurance">
-                                <input placeholder="Insurance">
+                                <input placeholder="Insurance" id="insurance-input">
                                 <i class="fa-solid fa-angle-down"></i>
                             </div>
                             <div class="search-button">
                                 <button class="search-btn">Search</button>
                             </div>
                         </form>
+
+                        <div class="insurance-dropdown">
+                            <div class="search-bar">
+                                <div class="insurance-serch-bar">
+                                    <input type="text" id="insurance-dropdown-input" placeholder="Search">
+                                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                </div>
+                            </div>
+                            <div class="insurance-dropdown-content">
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>Community Care Network</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>Tri-Care</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>Private Healthcare Systems</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>OMNIA Silver</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>Vision Care Plane</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>MultiPlane</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>Delta Dental</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>Beechstreet</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>RR Medical</p>
+                                </div>
+                                <div class="inputItem">
+                                    <input type="checkbox">
+                                    <p>HealthSouth</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -90,7 +139,181 @@
 
             </div>
         </section>
+
+        <section id="doctor-lists">
+            <div class="doctor-list-container">
+                <div class="doctor-status-header">
+                    <div class="total-result">
+                        <p><span>40</span> results</p>
+                    </div>
+                    <div class="doctor-status">
+                        <div class="accepting-patients">
+                            <input type="checkbox" class="accepting-patients-checkbox">
+                            <p>Accepting New Patients</p>
+                        </div>
+                        <div class="schedule-online">
+                            <input type="checkbox" class="schedule-online-checkbox">
+                            <p>Schedule Online</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="available-doctors">
+                    <div class="doctor-shortlist">
+                        <div class="reset">
+                            <p>Reset All</p>
+                            <i class="fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <div class="dropdown-selection"></div>
+                        <div class="doctor-filters">
+                            <p>Filters & sorting apply upon selection.</p>
+                        </div>
+                        <div class="short-by-status">
+                            <h4>SORT BY</h4>
+                            <div class="status-selection">
+                                <div>
+                                    <input type="radio">
+                                    <label>Relevancy</label>
+                                </div>
+                                <div>
+                                    <input type="radio">
+                                    <label>Next available</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="available-doctor-container">
+
+                        <div class="schedule-doctors-header">
+                            <div class="patients-status">
+                                <h5>SCHEDULE ONLINE</h5>
+                                <P>Are you a new or existing patients?</P>
+                            </div>
+                            <div class="patients-shortlist">
+                                <h5>New Patient</h5>
+                                <p>Existing Patient</p>
+                            </div>
+                        </div>
+
+                        <div class="doctors-available">
+
+                            <div class="doctor1">
+                                <div class="doctor-image"><img src="./Images/profile 1.png" class="doctor1-image"></div>
+                                <div class="doctor-details">
+                                    <div class="doctor-detail">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <h4>ACCEPTING NEW PATIENTS</h4>
+                                    </div>
+                                    <div class="doctor-name">
+                                        <h1>Andrew A. Willis, MD</h1>
+                                        <i class="fa-solid fa-circle-arrow-right"></i>
+                                    </div>
+                                    <div class="doctor-specalist">
+                                        <p>Orthopedic Surgery, Surgery of the Hand, Sports Medicine</p>
+                                    </div>
+                                    <div class="doctor-location">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <p>Morristown</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button><i class="fa-solid fa-phone"></i>973-538-2334</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="Specialities">
+
+            <div class="Specialities-container">
+                <div class="Specialities-image-content">
+                    <img src="./Images/new patients.png" class="Specialities-image">
+                </div>
+
+                <div class="Specialities-text-content">
+                    <div class="Specialities-text">
+                        <h1>See all Specialities</h1>
+                        <p>Explore our full list off 200+ specialities to find the care you need.</p>
+                    </div>
+                    <div class="Specialitiess-btn-content">
+                        <button class="Specialities-btn">See all</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="footer">
+            <div class="footer-container">
+                <div class="footer-section1">
+                    <div class="footer-logo-image">
+                        <img src="./Images/footer logo.png" class="footer-image">
+                    </div>
+                    <div class="footer-content1">
+                        <h4>ABOUT US</h4>
+                        <P>Who We Are</P>
+                        <p>Approach to Care</p>
+                        <p>Community Focus</p>
+                    </div>
+                    <div class="footer-content2">
+                        <h4>RESOURCES</h4>
+                        <P>Research & Clinical Trials</P>
+                        <p>Classes & Events</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="footer-content3">
+                        <div class="footer-content3-text">
+                            <h4>PROFESSIONALS</h4>
+                            <P>Professionals & Medical Education</P>
+                            <p>Careers</p>
+                        </div>
+                        <div class="footer-icon-container">
+                            <div class="footer-icon-heading">
+                                <h4>FOLLOW US</h4>
+                            </div>
+                            <div class="footer-icons">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-line"></div>
+                <div class="footer-section2">
+                    <div class="copyrights-text">
+                        <p><i class="fa-regular fa-copyright"></i>2025 Atlantic Health System</p>
+                    </div>
+                    <div class="copyrights-contents">
+                        <p>Privacy practices</p>
+                        <div class="right-line"></div>
+                        <p>Code of Ethics</p>
+                        <div class="right-line"></div>
+                        <p>Disclaimer</p>
+                        <div class="right-line"></div>
+                        <p>Language Assistance</p>
+                        <div class="right-line"></div>
+                        <p>Accessibility</p>
+                        <div class="right-line"></div>
+                        <p>Terms of use</p>
+                        <div class="right-line"></div>
+                        <p>Price Transparency</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <script src="insurancedropdown.js"></script>
+    <script src="insuranceinput.js"></script>
 </body>
 
 </html>

@@ -26,6 +26,7 @@ body {
 .header-image {
     width: 140px;
     padding-block: 23px;
+    margin-right: 50px;
 }
 
 .header-navlist {
@@ -42,6 +43,21 @@ body {
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.get-care p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.get-care i {
+    font-size: 15px;
+}
+.get-care:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #011d46;
 }
 .location {
     display: flex;
@@ -49,13 +65,43 @@ body {
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.location p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.location i {
+    font-size: 15px;
+}
+.location:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #00337f;
 }
 .patient-resource {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.patient-resource p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.patient-resource i {
+    font-size: 15px;
+}
+.patient-resource:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #00337f;
 }
 .mychart {
     display: flex;
@@ -63,6 +109,21 @@ body {
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.mychart p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.mychart i {
+    font-size: 15px;
+}
+.mychart:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #00337f;
 }
 
 .find-doctor-btn-content {
@@ -79,10 +140,12 @@ body {
     border-radius: 50px;
     font-size: 16px;
     letter-spacing: 1px;
+    margin-left: 30px;
 }
 .find-btn:hover {
     cursor: pointer;
     background-color: #011d46;
+
 }
 .search-icon {
     font-size: 20px;
@@ -122,6 +185,7 @@ body {
 
 .find-a-doctor-form {
     background-color: #fff;
+    position: relative;
 }
 #insurance-form {
     display: flex;
@@ -173,6 +237,9 @@ body {
     font-family: roboto;
     font-weight: 300;
 }
+.find-by-insurance input:hover {
+    cursor: pointer;
+}
 .find-by-insurance ::placeholder {
     font-size: 16px;
     color: rgb(117, 113, 113);
@@ -184,6 +251,10 @@ body {
 }
 .find-by-insurance i {
     padding-right: 20px;
+    color: grey;
+}
+.find-by-insurance:hover {
+    cursor: pointer;
 }
 .search-button {
     padding-inline: 20px;
@@ -197,8 +268,335 @@ body {
     margin-block: 30px;
     font-size: 16px;
 }
-
 .insurance-img{
     width: 700px;
     padding-top: 145px;
+}
+
+
+.insurance-dropdown {
+   position: absolute;
+   border: 1px solid grey;
+   background-color: #fff;
+   border-radius: 5px;
+   z-index: 10px;
+   top: 200px;
+   display: none;
+}
+.search-bar {
+    padding: 10px;
+}
+.insurance-serch-bar input {
+    width: 470px;
+    height: 60px;
+    outline: none;
+    font-size: 18px;
+    padding-inline: 20px;
+    font-family: roboto;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.insurance-serch-bar ::placeholder {
+    font-size: 16px;
+    color: rgb(117, 113, 113);
+    font-family: roboto;
+    font-weight: 300;
+}
+.insurance-serch-bar {
+    border: 1px solid #8a8d92;
+    border-radius: 10px;
+}
+.insurance-serch-bar i {
+    padding-right: 20px;
+    color: grey;
+}
+.insurance-dropdown-content {
+    height: 300px;
+    overflow-x: scroll;
+    padding-inline: 10px;
+}
+.inputItem {
+    display: flex;
+    border: 2px solid transparent;
+}
+.inputItem:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.insurance-dropdown-content p {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 300;
+    padding-block: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+#doctor-lists {
+    padding-inline: 120px;
+}
+.doctor-status-header {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 30px;
+}
+.total-result p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 17px;
+}
+.doctor-status {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.accepting-patients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.accepting-patients p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 17px;
+}
+.schedule-online {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.schedule-online p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 17px;
+}
+.schedule-online input {
+    color: #011d46;
+}
+
+.available-doctors {
+    display: flex;
+    gap: 50px;
+}
+.reset {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reset p {
+    color: #00337f;
+    font-family: roboto;
+    font-weight: 300;
+    border-bottom: 1px solid #00337f;
+    font-size: 17px;
+}
+.reset i {
+    color: #00337f;
+}
+.doctor-filters p {
+    font-family: roboto;
+    font-weight: 300;
+    color: #5b5d5f;
+    font-size: 13px;
+    padding-block: 30px;
+}
+.status-selection {
+    display: flex;
+    flex-direction: column;
+}
+.status-selection label {
+    font-family: roboto;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.status-selection div {
+    padding-block: 8px;
+}
+.short-by-status h4 {
+    font-family: roboto;
+    font-weight: 300;
+    color: #b5591c;
+    padding-bottom: 35px;
+}
+
+
+.schedule-doctors-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 550px;
+    background-color: #fff8ed;
+    align-items: center;
+}
+.patients-status h5 {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+.patients-status p {
+    font-family: roboto;
+    font-weight: 300;
+    padding-block: 15px;
+}
+.patients-shortlist{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+#Specialities {
+    padding-inline: 120px;
+    margin-block: 70px;
+}
+.Specialities-container {
+    display: flex;
+    gap: 80px;
+    background-color: #d9e2f0;
+    border-radius: 10px;
+    padding-inline: 80px;
+}
+.Specialities-text-content {
+    display: flex;
+    align-items: center;
+    gap: 240px;
+}
+
+.Specialities-image {
+    width: 130px;   
+    padding-top: 30px;
+}
+.Specialities-text h1 {
+    font-size: 33px;
+    font-family: serif;
+    font-weight: 450;
+}
+.Specialities-text p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 17px;
+    max-width: 500px;
+    line-height: 1.5;
+    padding-top: 6px;
+}
+.Specialities-btn {
+    background-color: #00337f;
+    padding-block: 13px;
+    padding-inline: 20px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+
+
+#footer {
+    padding-inline: 120px;
+    background-color: #011d46;
+}
+.footer-section1 {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content1 h4 {
+    color: #b5591c;
+    padding-bottom: 10px;
+    font-family: roboto;
+    font-weight: 400;
+}
+.footer-content1 p {
+    color: #fff;
+    padding-bottom: 25px;
+}
+.footer-content1 p:hover {
+    cursor: pointer;
+    color: #bc5714;
+}
+
+.footer-content2 h4 {
+    color: #b5591c;
+    padding-bottom: 10px;
+    font-family: roboto;
+    font-weight: 400;
+}
+.footer-content2 p {
+    color: #fff;
+    padding-bottom: 25px;
+}
+.footer-content2 p:hover {
+    cursor: pointer;
+    color: #bc5714;
+}
+
+.footer-content3-text h4 {
+    color: #b5591c;
+    padding-bottom: 10px;
+    font-family: roboto;
+    font-weight: 400;
+}
+.footer-content3-text p {
+    color: #fff;
+    padding-bottom: 25px;
+}
+.footer-content3-text p:hover {
+    cursor: pointer;
+    color: #bc5714;
+}
+
+.footer-icon-heading h4 {
+    color: #b5591c;
+    padding-bottom: 10px;
+    font-family: roboto;
+    font-weight: 400;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-icons i {
+    font-size: 20px;
+    color: #fff;
+}
+.footer-icons i:hover {
+    cursor: pointer;
+    color: #b5591c; 
+}
+.footer-section1 {
+    padding-block: 50px;
+}
+
+.footer-line {
+    border-bottom: 1px solid #948d8d;
+}
+
+.footer-section2 {
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyrights-text p{
+    font-size: 12px;
+    color: #fff;
+}
+.copyrights-contents {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 13px;
+}
+.copyrights-contents P {
+   text-decoration: underline;
+}
+.right-line{
+    border-right: 1px solid #706c6c;
+    margin-block: 1px;
 }

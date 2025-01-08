@@ -26,6 +26,7 @@ body {
 .header-image {
     width: 140px;
     padding-block: 23px;
+    margin-right: 50px;
 }
 
 .header-navlist {
@@ -42,6 +43,21 @@ body {
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.get-care p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.get-care i {
+    font-size: 15px;
+}
+.get-care:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #011d46;
 }
 .location {
     display: flex;
@@ -49,13 +65,43 @@ body {
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.location p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.location i {
+    font-size: 15px;
+}
+.location:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #00337f;
 }
 .patient-resource {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.patient-resource p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.patient-resource i {
+    font-size: 15px;
+}
+.patient-resource:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #00337f;
 }
 .mychart {
     display: flex;
@@ -63,6 +109,21 @@ body {
     gap: 15px;
     color: #00337f;
     font-size: 18px;
+    height: 90px;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+    padding-inline: 20px;
+}
+.mychart p {
+    font-size: 18px;
+    padding-top: 4px;
+}
+.mychart i {
+    font-size: 15px;
+}
+.mychart:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #00337f;
 }
 
 .find-doctor-btn-content {
@@ -79,10 +140,12 @@ body {
     border-radius: 50px;
     font-size: 16px;
     letter-spacing: 1px;
+    margin-left: 30px;
 }
 .find-btn:hover {
     cursor: pointer;
     background-color: #011d46;
+
 }
 .search-icon {
     font-size: 20px;
@@ -117,6 +180,8 @@ body {
     padding-left: 20px;
     font-size: 18px;
     border-radius: 5px;
+    font-family: roboto;
+    font-weight: 300;
 }
 .serch-form-container ::placeholder {
     font-size: 15px;
