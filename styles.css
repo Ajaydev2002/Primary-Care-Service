@@ -891,7 +891,6 @@ body {
     width: 300px;
     border-radius: 10px;
     border: 1px solid rgb(226, 220, 220);
-    overflow: hidden;
 }
 
 .health-content1:hover {
@@ -903,6 +902,8 @@ body {
 .health-image1 {
     width: 299px;
     height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .heath-text1 {
@@ -944,7 +945,6 @@ body {
     width: 300px;
     border-radius: 10px;
     border: 1px solid rgb(226, 220, 220);
-    overflow: hidden;
 }
 
 .health-content2:hover {
@@ -956,6 +956,8 @@ body {
 .health-image2 {
     width: 300px;
     height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .health-text2 {
@@ -997,7 +999,6 @@ body {
     width: 300px;
     border-radius: 10px;
     border: 1px solid rgb(226, 220, 220);
-    overflow: hidden;
 }
 
 .health-content3:hover {
@@ -1009,6 +1010,8 @@ body {
 .health-image3 {
     width: 300px;
     height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .health-text3 {
@@ -1050,7 +1053,6 @@ body {
     width: 300px;
     border-radius: 10px;
     border: 1px solid rgb(226, 220, 220);
-    overflow: hidden;
 }
 
 .health-content4:hover {
@@ -1062,6 +1064,8 @@ body {
 .health-image4 {
     width: 300px;
     height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .health-text4 {
@@ -1108,9 +1112,13 @@ body {
 
 .footer-section1 {
     display: flex;
-    justify-content: space-between;
+    gap: 150px;
 }
 
+.footer-contents {
+    display: flex;
+    gap: 150px;
+}
 .footer-content1 h4 {
     color: #b5591c;
     padding-bottom: 10px;
@@ -1446,5 +1454,55 @@ body {
     .doctor-selection-image {
         width: 250px;
         height: 250px;
+    }
+
+
+    #health-living {
+        padding-inline: 0px;
+    }
+    .health-heading h1 {
+        padding-inline: 90px;
+    }
+    .health-container {
+        overflow: scroll;
+        padding-inline: 90px;
+    }
+    .health-content1 {
+        width: 1000px;
+    }
+    .health-content2 {
+        width: 1000px;
+    }
+    .health-content3 {
+        width: 1000px;
+    }
+    .health-content4 {
+        width: 1000px;
+    }
+    
+
+
+    #footer {
+        padding-inline: 90px;
+    }
+    .footer-image {
+        width: 150px;
+    }
+    .footer-section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-contents {
+        gap: 100px;
+    }
+
+    .copyrights-contents {
+        gap: 10px;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    .copyrights-contents p {
+        font-size: 10px;
     }
 }
