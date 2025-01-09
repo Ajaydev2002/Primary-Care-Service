@@ -381,7 +381,7 @@ body {
 
 .available-doctors {
     display: flex;
-    gap: 50px;
+    gap: 63px;
 }
 .reset {
     display: flex;
@@ -428,9 +428,11 @@ body {
 .schedule-doctors-header {
     display: flex;
     justify-content: space-between;
-    gap: 550px;
+    gap: 500px;
     background-color: #fff8ed;
     align-items: center;
+    border-bottom: 3px solid #f1e0c6;
+    padding-inline: 20px;
 }
 .patients-status h5 {
     font-family: roboto;
@@ -438,7 +440,7 @@ body {
     font-size: 11px;
     letter-spacing: 1px;
     padding-top: 15px;
-}
+}   
 .patients-status p {
     font-family: roboto;
     font-weight: 300;
@@ -447,9 +449,221 @@ body {
 .patients-shortlist{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.patients-shortlist h5 {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 17px;
+    padding-right: 20px;
+}
+.patients-shortlist p {
+    font-family: roboto;
+    font-weight: 300;
 }
 
 
+.doctor1 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor1-image {
+    width: 140px;
+    height: 180px;
+    border-radius: 10px;
+}
+.doctor-details {
+    padding-left: 20px;
+    width: 450px;
+}
+.doctor-detail {
+    display: flex;
+    align-items: center;
+}
+.doctor-detail i {
+    font-size: 10px;
+    color: green;
+}
+.doctor-detail h4 {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+.doctor-name {
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+}
+.doctor-name h1 {
+    font-family: roboto;
+    font-weight: 300;
+    color: #00337f;
+}
+.doctor-name i {
+    color: #00337f;
+    font-size: 20PX;
+    padding-left: 10px;
+}
+.doctor-specalist p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 17px;
+}
+.doctor-location {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.doctor-location p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 13px;
+    padding-left: 8px;
+}
+.doctor-phone-num {
+    background-color: #fff8ed;
+    width: 380px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.doctor-phone-num button {
+    background-color: #00337f;
+    padding-block: 10px;
+    padding-inline: 20px;
+    color: #fff; 
+    border-radius: 50px;
+    font-size: 16px;
+    margin-block: 70px;
+}
+.phone-num i {
+    padding-right: 12px;
+}
+
+
+.doctor2 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor3 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor4 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor5 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor6 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor7 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor8 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor9 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor10 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor11 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor12 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor13 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor14 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor15 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor16 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor17 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor18 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor19 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor20 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor21 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor22 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor23 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor24 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
+.doctor25 {
+    display: flex;
+    padding-block: 20px;
+    align-items: center;
+}
 
 
 

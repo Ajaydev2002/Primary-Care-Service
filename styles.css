@@ -7,8 +7,9 @@
 }
 
 body {
-    font-family:"Onest",sans-serif;
+    font-family: "Onest", sans-serif;
 }
+
 .main-container {
     width: 100%;
     max-width: 1540px;
@@ -18,11 +19,13 @@ body {
 #primary-care-main-header {
     padding-inline: 120px;
 }
+
 .primary-care-header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header-image {
     width: 140px;
     padding-block: 23px;
@@ -34,9 +37,11 @@ body {
     justify-content: space-between;
     gap: 70px;
 }
+
 .header-navlist div:hover {
-   cursor: pointer;
+    cursor: pointer;
 }
+
 .get-care {
     display: flex;
     justify-content: space-between;
@@ -48,17 +53,21 @@ body {
     border-bottom: 4px solid transparent;
     padding-inline: 20px;
 }
+
 .get-care p {
     font-size: 18px;
     padding-top: 4px;
 }
+
 .get-care i {
     font-size: 15px;
 }
+
 .get-care:hover {
     cursor: pointer;
     border-bottom: 4px solid #011d46;
 }
+
 .location {
     display: flex;
     justify-content: space-between;
@@ -70,17 +79,21 @@ body {
     border-bottom: 4px solid transparent;
     padding-inline: 20px;
 }
+
 .location p {
     font-size: 18px;
     padding-top: 4px;
 }
+
 .location i {
     font-size: 15px;
 }
+
 .location:hover {
     cursor: pointer;
     border-bottom: 4px solid #00337f;
 }
+
 .patient-resource {
     display: flex;
     justify-content: space-between;
@@ -92,17 +105,21 @@ body {
     border-bottom: 4px solid transparent;
     padding-inline: 20px;
 }
+
 .patient-resource p {
     font-size: 18px;
     padding-top: 4px;
 }
+
 .patient-resource i {
     font-size: 15px;
 }
+
 .patient-resource:hover {
     cursor: pointer;
     border-bottom: 4px solid #00337f;
 }
+
 .mychart {
     display: flex;
     justify-content: space-between;
@@ -114,13 +131,16 @@ body {
     border-bottom: 4px solid transparent;
     padding-inline: 20px;
 }
+
 .mychart p {
     font-size: 18px;
     padding-top: 4px;
 }
+
 .mychart i {
     font-size: 15px;
 }
+
 .mychart:hover {
     cursor: pointer;
     border-bottom: 4px solid #00337f;
@@ -132,6 +152,7 @@ body {
     gap: 40px;
     align-items: center;
 }
+
 .find-btn {
     background-color: #00337f;
     padding-block: 13px;
@@ -142,17 +163,24 @@ body {
     letter-spacing: 1px;
     margin-left: 30px;
 }
+
 .find-btn:hover {
     cursor: pointer;
     background-color: #011d46;
 
 }
+
 .search-icon {
     font-size: 20px;
     color: #00337f;
 }
+
 .search-icon:hover {
     cursor: pointer;
+}
+
+.menu-btn {
+    display: none;
 }
 
 .search-form {
@@ -162,16 +190,19 @@ body {
     background-color: #fff;
     display: none;
 }
+
 .search-form-content {
     display: flex;
     gap: 100px;
     align-items: center;
 }
+
 .serch-form-container {
     width: 930px;
     border: 1px solid black;
     border-radius: 6px;
 }
+
 .serch-form-container input {
     border: none;
     outline: none;
@@ -183,21 +214,26 @@ body {
     font-family: roboto;
     font-weight: 300;
 }
+
 .serch-form-container ::placeholder {
     font-size: 15px;
 }
+
 .serch-form-container i {
     font-size: 20px;
     padding: 15px;
     color: #2d5899;
 }
+
 .serch-form-container i:hover {
     cursor: pointer;
 }
+
 .close-icon {
     font-size: 20px;
     color: #2d5899;
 }
+
 .close-icon:hover {
     cursor: pointer;
 }
@@ -215,6 +251,7 @@ body {
     padding-top: 10px;
     z-index: 10;
 }
+
 .dropdown-content {
     width: 1110px;
     background-color: #fff;
@@ -222,32 +259,38 @@ body {
     display: flex;
     padding: 20px;
 }
-.dropdown-section1 h4{
+.dropdown-section1 h4 {
     font-size: 25px;
     font-family: serif;
     font-weight: 500;
 }
+
 .dropdown-section1 p {
     font-size: 13px;
     padding-top: 20px;
     line-height: 1.5;
 }
+
 .vertical-line {
     border-right: 1px dotted rgb(213, 210, 210);
     margin-inline: 50px;
 }
+
 .dropdown-section2 {
     margin-top: 15px;
 }
-.dropdown-section2-text1 p{
+
+.dropdown-section2-text1 p {
     color: #2d5899;
     padding-bottom: 20px;
     font-size: 17px;
 }
+
 .dropdown-hor-line {
     border-top: 1px dotted rgb(213, 210, 210);
     width: 400px;
 }
+
 .dropdown-section2-text2 h3 {
     font-size: 13px;
     font-weight: 400;
@@ -255,6 +298,7 @@ body {
     padding-block: 15px;
     margin-top: 10px;
 }
+
 .dropdown-section2-text2 p {
     color: #2d5899;
     padding-bottom: 20px;
@@ -270,14 +314,17 @@ body {
     margin-left: 30px;
     border-radius: 5px;
 }
+
 .dropdown-image {
     width: 100px;
 }
+
 .dropdown-section3 h2 {
     font-family: serif;
     font-weight: 500;
     padding-top: 40px;
 }
+
 .dropdown-section3 p {
     text-align: center;
     font-size: 13px;
@@ -285,6 +332,7 @@ body {
     line-height: 1.5;
     font-weight: 500;
 }
+
 .dropdown-btn {
     background-color: #00337f;
     padding-block: 13px;
@@ -296,6 +344,7 @@ body {
     width: 100%;
     margin-top: 30px;
 }
+
 .dropdown-btn:hover {
     cursor: pointer;
     background-color: #011d46;
@@ -311,17 +360,21 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .primary-care-content-1 {
     display: flex;
 }
+
 .house-icon {
     color: #00337f;
 }
+
 .arrow-right {
     color: grey;
     padding-inline: 12px;
 }
-.primary-care-para1{
+
+.primary-care-para1 {
     color: #00337f;
     border-bottom: 1px solid #00337f;
 }
@@ -334,16 +387,19 @@ body {
     font-family: serif;
     margin-top: 50px;
 }
+
 .prime-care-text h1 {
     font-size: 60px;
     font-weight: 500;
     padding-bottom: 20px;
 }
+
 .prime-care-text p {
     font-size: 26px;
     line-height: 1.3;
     font-weight: 400;
 }
+
 .prim-care-doctor-btn {
     background-color: #00337f;
     padding-block: 13px;
@@ -353,6 +409,7 @@ body {
     font-size: 17px;
     margin-top: 20px;
 }
+
 .prim-care-doctor-btn:hover {
     cursor: pointer;
     background-color: #011d46;
@@ -368,11 +425,13 @@ body {
     margin-top: 50px;
     padding-inline: 120px;
 }
+
 .health-journey-headings h1 {
     font-family: serif;
     font-size: 45px;
     font-weight: 500;
 }
+
 .health-journey-headings p {
     font-family: roboto;
     font-weight: 300;
@@ -380,10 +439,12 @@ body {
     padding-bottom: 25px;
     font-size: 17px;
 }
+
 .health-jouney-lists {
     display: flex;
 }
-.health-jouney-list1 p{
+
+.health-jouney-list1 p {
     border-bottom: 1px dashed black;
     padding-block: 20px;
     width: 620px;
@@ -392,6 +453,7 @@ body {
     font-size: 17px;
     color: rgb(56, 50, 50);
 }
+
 .health-jouney-list2 p {
     border-bottom: 1px dashed black;
     padding-block: 20px;
@@ -402,6 +464,7 @@ body {
     font-size: 17px;
     color: rgb(56, 50, 50);
 }
+
 .health-journey-text p {
     padding-top: 40px;
     font-family: roboto;
@@ -414,6 +477,7 @@ body {
     padding-inline: 120px;
     margin-block: 100px;
 }
+
 .new-patients-container {
     display: flex;
     gap: 80px;
@@ -421,6 +485,7 @@ body {
     border-radius: 10px;
     padding-inline: 80px;
 }
+
 .new-patients-text-content {
     display: flex;
     align-items: center;
@@ -428,15 +493,17 @@ body {
 }
 
 .new-patients-image {
-    width: 150px;   
+    width: 150px;
     padding-top: 30px;
 }
+
 .new-patients-text h1 {
     font-size: 33px;
     font-family: serif;
     font-weight: 450;
     letter-spacing: 1px;
 }
+
 .new-patients-text p {
     font-family: roboto;
     font-weight: 300;
@@ -445,6 +512,7 @@ body {
     line-height: 1.5;
     padding-top: 6px;
 }
+
 .new-patients-btn {
     background-color: #00337f;
     padding-block: 13px;
@@ -459,21 +527,25 @@ body {
 #conditions {
     padding-inline: 120px;
 }
+
 .conditions-heading h1 {
     font-family: serif;
     font-size: 45px;
     font-weight: 400;
     padding-bottom: 20px;
 }
+
 .conditions-heading p {
     font-family: roboto;
     font-size: 17px;
     font-weight: 300;
     padding-bottom: 30px;
 }
+
 .conditions-list-items {
     display: flex;
 }
+
 .conditions-list1 p {
     padding-block: 20px;
     border-bottom: 1px dashed black;
@@ -482,6 +554,7 @@ body {
     width: 610px;
     color: rgb(56, 50, 50);
 }
+
 .conditions-list2 p {
     padding-block: 20px;
     border-bottom: 1px dashed black;
@@ -498,6 +571,7 @@ body {
     padding-inline: 120px;
     padding-block: 130px;
 }
+
 .health-control-container {
     background-color: #f2f4f7;
     border-radius: 25px;
@@ -507,11 +581,13 @@ body {
     padding-block: 70px;
     align-items: center;
 }
+
 .health-control-text h1 {
     font-family: serif;
     font-size: 45px;
     font-weight: 400;
 }
+
 .health-control-text p {
     font-family: roboto;
     font-size: 18px;
@@ -520,6 +596,7 @@ body {
     padding-top: 15px;
     letter-spacing: 0.5px;
 }
+
 .health-control-btn {
     background-color: #00337f;
     padding-block: 13px;
@@ -529,6 +606,7 @@ body {
     font-size: 17px;
     margin-top: 20px;
 }
+
 .health-control-image {
     width: 550px;
 }
@@ -539,11 +617,13 @@ body {
     padding-inline: 120px;
     padding-bottom: 100px;
 }
+
 .about-heading h1 {
     font-family: serif;
     font-size: 42px;
     font-weight: 400;
 }
+
 .about-heading p {
     font-family: roboto;
     font-size: 17px;
@@ -556,15 +636,18 @@ body {
     max-width: 840px;
     border-bottom: 1px solid rgb(220, 213, 213);
 }
+
 .FAQ-content1-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .FAQ-content1-heading:hover {
     border-bottom: 3px solid #011d46;
     cursor: pointer;
 }
+
 .FAQ-content1-heading h4 {
     color: #00337f;
     font-family: roboto;
@@ -572,15 +655,18 @@ body {
     font-weight: 300;
     padding-block: 20px;
 }
+
 .FAQ-content1-heading i {
     font-size: 20px;
-    font-weight: lighter; 
-    color: #00337f;  
+    font-weight: lighter;
+    color: #00337f;
 }
+
 .FAQ-content1-para {
     display: none;
     padding-block: 50px;
 }
+
 .FAQ-content1-para p {
     font-family: roboto;
     font-size: 18px;
@@ -588,10 +674,12 @@ body {
     line-height: 1.6;
     letter-spacing: 0.7px;
 }
+
 .FAQ-content1-para p span {
-    color: #00337f; 
+    color: #00337f;
     text-decoration: underline;
 }
+
 .FAQ-content1-para p span:hover {
     text-decoration: none;
     cursor: pointer;
@@ -602,15 +690,19 @@ body {
     max-width: 840px;
     border-bottom: 1px solid rgb(220, 213, 213);
 }
+
 .FAQ-content2-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid transparent;
 }
+
 .FAQ-content2-heading:hover {
     border-bottom: 3px solid #011d46;
     cursor: pointer;
 }
+
 .FAQ-content2-heading h4 {
     color: #00337f;
     font-family: roboto;
@@ -618,15 +710,18 @@ body {
     font-weight: 300;
     padding-block: 20px;
 }
+
 .FAQ-content2-heading i {
     font-size: 20px;
     font-weight: lighter;
     color: #00337f;
 }
+
 .FAQ-content2-para {
     display: none;
     padding-block: 50px;
 }
+
 .FAQ-content2-para p {
     font-family: roboto;
     font-size: 18px;
@@ -634,10 +729,12 @@ body {
     line-height: 1.6;
     letter-spacing: 0.5px;
 }
+
 .FAQ-content2-para p span {
-    color: #00337f; 
+    color: #00337f;
     text-decoration: underline;
 }
+
 .FAQ-content2-para p span:hover {
     text-decoration: none;
     cursor: pointer;
@@ -648,15 +745,19 @@ body {
     max-width: 840px;
     border-bottom: 1px solid rgb(220, 213, 213);
 }
+
 .FAQ-content3-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid transparent;
 }
+
 .FAQ-content3-heading:hover {
     border-bottom: 3px solid #011d46;
     cursor: pointer;
 }
+
 .FAQ-content3-heading h4 {
     color: #00337f;
     font-family: roboto;
@@ -664,15 +765,18 @@ body {
     font-weight: 300;
     padding-block: 20px;
 }
+
 .FAQ-content3-heading i {
     font-size: 20px;
     font-weight: lighter;
     color: #00337f;
 }
+
 .FAQ-content3-para {
     display: none;
     padding-block: 50px;
 }
+
 .FAQ-content3-para1 p {
     font-family: roboto;
     font-size: 18px;
@@ -680,6 +784,7 @@ body {
     padding-block: 20px;
     letter-spacing: 0.5px;
 }
+
 .FAQ-content3-lists li {
     font-family: roboto;
     font-size: 18px;
@@ -688,6 +793,7 @@ body {
     margin-left: 20px;
     letter-spacing: 0.5px;
 }
+
 .FAQ-content3-para2 {
     font-family: roboto;
     font-size: 18px;
@@ -696,6 +802,7 @@ body {
     letter-spacing: 0.7px;
     line-height: 1.6;
 }
+
 .FAQ-content3-para3 {
     font-family: roboto;
     font-size: 18px;
@@ -704,11 +811,13 @@ body {
     letter-spacing: 0.5px;
     line-height: 1.6;
 }
+
 .FAQ-content3-para p span {
-    color: #00337f; 
+    color: #00337f;
     text-decoration: underline;
     font-size: 20px;
 }
+
 .FAQ-content3-para p span:hover {
     text-decoration: none;
     cursor: pointer;
@@ -720,6 +829,7 @@ body {
     padding-inline: 120px;
     padding-block: 20px;
 }
+
 .doctor-selection-container {
     display: flex;
     gap: 50px;
@@ -729,17 +839,20 @@ body {
     padding-block: 70px;
     border-radius: 20px;
 }
+
 .doctor-selection-content h5 {
     font-family: roboto;
     font-weight: 400;
     letter-spacing: 3px;
 }
+
 .doctor-selection-content h1 {
     font-family: serif;
     font-size: 45px;
     font-weight: 400;
     padding-top: 20px;
 }
+
 .doctor-selection-content p {
     font-family: roboto;
     font-size: 18px;
@@ -760,12 +873,14 @@ body {
     padding-inline: 120px;
     padding-bottom: 100px;
 }
+
 .health-heading h1 {
     font-family: serif;
     font-size: 40px;
     font-weight: 400;
     padding-top: 100px;
 }
+
 .health-container {
     display: flex;
     gap: 23px;
@@ -778,18 +893,22 @@ body {
     border: 1px solid rgb(226, 220, 220);
     overflow: hidden;
 }
+
 .health-content1:hover {
     cursor: pointer;
     box-shadow: 0px 10px 20px lightgray;
     transition: .35s ease-in;
 }
+
 .health-image1 {
     width: 299px;
     height: 160px;
 }
+
 .heath-text1 {
     padding-inline: 20px;
 }
+
 .heath-text1 h5 {
     font-family: roboto;
     font-size: 13px;
@@ -798,6 +917,7 @@ body {
     padding-block: 15px;
     letter-spacing: 2px;
 }
+
 .heath-text1 h4 {
     font-family: roboto;
     font-size: 17px;
@@ -805,6 +925,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
+
 .heath-text1 p {
     font-family: roboto;
     font-size: 17px;
@@ -812,6 +933,7 @@ body {
     padding-block: 15px;
     line-height: 1.5;
 }
+
 .heath-text1 i {
     font-size: 20px;
     color: #00337f;
@@ -824,18 +946,22 @@ body {
     border: 1px solid rgb(226, 220, 220);
     overflow: hidden;
 }
+
 .health-content2:hover {
     cursor: pointer;
     box-shadow: 0px 10px 20px lightgray;
     transition: .35s ease-in;
 }
+
 .health-image2 {
     width: 300px;
     height: 160px;
 }
+
 .health-text2 {
     padding-inline: 20px;
 }
+
 .health-text2 h5 {
     font-family: roboto;
     font-size: 13px;
@@ -844,6 +970,7 @@ body {
     padding-block: 15px;
     letter-spacing: 2px;
 }
+
 .health-text2 h4 {
     font-family: roboto;
     font-size: 17px;
@@ -851,6 +978,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
+
 .health-text2 p {
     font-family: roboto;
     font-size: 17px;
@@ -858,6 +986,7 @@ body {
     padding-block: 15px;
     line-height: 1.5;
 }
+
 .health-text2 i {
     font-size: 20px;
     color: #00337f;
@@ -870,18 +999,22 @@ body {
     border: 1px solid rgb(226, 220, 220);
     overflow: hidden;
 }
+
 .health-content3:hover {
     cursor: pointer;
     box-shadow: 0px 10px 20px lightgray;
     transition: .35s ease-in;
 }
+
 .health-image3 {
     width: 300px;
     height: 160px;
 }
+
 .health-text3 {
     padding-inline: 20px;
 }
+
 .health-text3 h5 {
     font-family: roboto;
     font-size: 13px;
@@ -890,6 +1023,7 @@ body {
     padding-block: 15px;
     letter-spacing: 2px;
 }
+
 .health-text3 h4 {
     font-family: roboto;
     font-size: 17px;
@@ -897,6 +1031,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
+
 .health-text3 p {
     font-family: roboto;
     font-size: 17px;
@@ -904,6 +1039,7 @@ body {
     padding-block: 15px;
     line-height: 1.5;
 }
+
 .health-text3 i {
     font-size: 20px;
     color: #00337f;
@@ -916,18 +1052,22 @@ body {
     border: 1px solid rgb(226, 220, 220);
     overflow: hidden;
 }
+
 .health-content4:hover {
     cursor: pointer;
     box-shadow: 0px 10px 20px lightgray;
     transition: .35s ease-in-out;
 }
+
 .health-image4 {
     width: 300px;
     height: 160px;
 }
+
 .health-text4 {
     padding-inline: 20px;
 }
+
 .health-text4 h5 {
     font-family: roboto;
     font-size: 13px;
@@ -936,6 +1076,7 @@ body {
     padding-block: 15px;
     letter-spacing: 2px;
 }
+
 .health-text4 h4 {
     font-family: roboto;
     font-size: 17px;
@@ -943,6 +1084,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
+
 .health-text4 p {
     font-family: roboto;
     font-size: 17px;
@@ -950,6 +1092,7 @@ body {
     padding-block: 15px;
     line-height: 1.5;
 }
+
 .health-text4 i {
     font-size: 20px;
     color: #00337f;
@@ -962,20 +1105,24 @@ body {
     padding-inline: 120px;
     background-color: #011d46;
 }
+
 .footer-section1 {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-content1 h4 {
     color: #b5591c;
     padding-bottom: 10px;
     font-family: roboto;
     font-weight: 400;
 }
+
 .footer-content1 p {
     color: #fff;
     padding-bottom: 25px;
 }
+
 .footer-content1 p:hover {
     cursor: pointer;
     color: #bc5714;
@@ -987,10 +1134,12 @@ body {
     font-family: roboto;
     font-weight: 400;
 }
+
 .footer-content2 p {
     color: #fff;
     padding-bottom: 25px;
 }
+
 .footer-content2 p:hover {
     cursor: pointer;
     color: #bc5714;
@@ -1002,10 +1151,12 @@ body {
     font-family: roboto;
     font-weight: 400;
 }
+
 .footer-content3-text p {
     color: #fff;
     padding-bottom: 25px;
 }
+
 .footer-content3-text p:hover {
     cursor: pointer;
     color: #bc5714;
@@ -1017,19 +1168,23 @@ body {
     font-family: roboto;
     font-weight: 400;
 }
+
 .footer-icons {
     display: flex;
     justify-content: space-between;
 
 }
+
 .footer-icons i {
     font-size: 20px;
     color: #fff;
 }
+
 .footer-icons i:hover {
     cursor: pointer;
-    color: #b5591c; 
+    color: #b5591c;
 }
+
 .footer-section1 {
     padding-block: 50px;
 }
@@ -1043,20 +1198,253 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.copyrights-text p{
+
+.copyrights-text p {
     font-size: 12px;
     color: #fff;
 }
+
 .copyrights-contents {
     display: flex;
     gap: 20px;
     color: #fff;
     font-size: 13px;
 }
+
 .copyrights-contents P {
-   text-decoration: underline;
+    text-decoration: underline;
 }
-.right-line{
+
+.right-line {
     border-right: 1px solid #706c6c;
     margin-block: 1px;
+}
+
+
+
+
+
+
+
+@media (max-width : 920px) {
+
+    #primary-care-main-header {
+        padding-inline: 30px;
+    }
+
+    .get-care {
+        display: none;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .patient-resource {
+        display: none;
+    }
+
+    .mychart {
+        display: none;
+    }
+
+    .find-doctor-btn {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn i {
+        font-size: 20px;
+    }
+
+    #primary-care {
+        padding-inline: 90px;
+        padding-block: 50px;
+    }
+
+    .primary-care-content-2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 50px;
+    }
+
+    .house-icon {
+        display: none;
+    }
+
+    .primary-care-para2 {
+        display: none;
+    }
+
+    .prime-care-text h1 {
+        font-size: 48px;
+        padding-bottom: 10px;
+    }
+
+    .prime-care-text p {
+        font-size: 20px;
+    }
+
+
+    .health-journey-container {
+        padding-inline: 90px;
+    }
+    .health-journey-headings h1 {
+        font-size: 35px;
+    }
+    .health-jouney-list1 p {
+        border-bottom: 1px dashed black;
+        padding-block: 20px;
+        width: 280px;
+        font-family: roboto;
+        font-weight: 400;
+        font-size: 17px;
+        color: rgb(56, 50, 50);
+    }
+    
+    .health-jouney-list2 p {
+        border-bottom: 1px dashed black;
+        padding-block: 20px;
+        margin-left: 40px;
+        width: 280px;
+        font-family: roboto;
+        font-weight: 400;
+        font-size: 17px;
+        color: rgb(56, 50, 50);
+    }
+    .health-journey-text p {
+        font-size: 16px;
+    }
+
+
+    #new-patients {
+        padding-inline: 90px;
+    }
+    .new-patients-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-inline: 20px;
+        gap: 20px;
+    }
+    .new-patients-text-content {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .new-patients-btn-content button{
+        width: 500px;
+    }
+
+
+    #conditions {
+        padding-inline: 90px;
+    }
+    
+    .conditions-heading h1 {
+        font-size: 40px;
+    }
+    
+    .conditions-heading p {
+        font-size: 17px;
+        padding-bottom: 20px;
+        font-weight: 400;
+    }
+    .conditions-list1 p {
+        width: 260px;
+    }
+    
+    .conditions-list2 p {
+        width: 260px;
+    }
+
+
+
+    #health-control {
+        padding-inline: 90px;
+        padding-block: 100px;
+    }
+    
+    .health-control-container {
+        display: flex;
+        gap: 20px;
+        padding-inline: 30px;
+        padding-block: 50px;
+        align-items: center;
+    }
+    
+    .health-control-text h1 {
+        font-family: serif;
+        font-size: 38px;
+        font-weight: 400;
+    }
+    
+    .health-control-text p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 15px;
+    }
+    
+    .health-control-image {
+        width: 270px;
+    }
+    
+    
+    #about {
+        padding-inline: 90px;
+        padding-bottom: 90px;
+    }
+    .about-heading h1 {
+        font-size: 38px;
+    }
+    .about-heading p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .FAQ-content1-heading h4 {
+        font-size: 17px;
+    }
+    .FAQ-content1-para p {
+        font-size: 16px;
+    }
+    .FAQ-content2-heading h4 {
+        font-size: 17px;
+    }
+    .FAQ-content2-para p {
+        font-size: 16px;
+    }
+    .FAQ-content3-heading h4 {
+        font-size: 17px;
+    }
+
+
+
+    #doctor-selection {
+        padding-inline: 90px;
+    }
+    .doctor-selection-container {
+        padding-inline: 30px;
+        padding-block: 30px;
+        gap: 20px;
+    }
+    .doctor-selection-content h5 {
+        letter-spacing:1px;
+    }
+    .doctor-selection-content h1 {
+        font-size: 35px;
+    }
+    .doctor-selection-container p {
+        font-size: 16px;
+    }
+    .doctor-selection-image {
+        width: 250px;
+        height: 250px;
+    }
 }
