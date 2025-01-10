@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-family:"Onest",sans-serif;
+}
+.main-container {
+    width: 100%;
+    max-width: 1540px;
+    margin: auto;
+}
+
+@media (max-width:920px) {
+
+
+   .menu-header-logo{
+    width: 150px;
+   }
+   #menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+    padding-block: 20px;
+   }
+   .header-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   }
+   .search-icon i {
+    font-size: 20px;
+    color: #00337f;
+   } 
+   .exit-icon i {
+    font-size: 22px;
+    color: #00337f;
+   }
+   .exit-icon:hover {
+    cursor: pointer;
+   }
+
+
+   .menu-section1 {
+    padding-inline: 30px;
+   }
+   .get-care {
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+    border-bottom: 0.1px solid rgb(214, 210, 210);
+    border-top: 0.1px solid rgb(214, 210, 210);
+   }
+   .get-care P {
+    color: #00337f;
+    font-size: 18px;
+   }
+   .get-care i {
+    font-size: 20px;
+    color: #00337f;
+    padding-left: 20px;
+   }
+
+   .location {
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+    border-bottom: 0.1px solid rgb(214, 210, 210);
+   }
+   .location p {
+    color: #00337f;
+    font-size: 18px;
+   }
+   .location i {
+    font-size: 20px;
+    color: #00337f;
+    padding-left: 20px;
+   }
+
+   .patients {
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+    border-bottom: 0.1px solid rgb(214, 210, 210);;
+   }
+   .patients p {
+    color: #00337f;
+    font-size: 18px;
+   }
+   .patients i {
+    color: #00337f;
+    font-size: 20px;
+    padding-left: 20px;
+   }
+
+   .my-chart {
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+    border-bottom: 0.1px solid rgb(214, 210, 210);
+   }
+   .my-chart p {
+    color: #00337f;
+    font-size: 18px;
+   }
+   .my-chart i {
+    color: #00337f;
+    font-size: 20px;
+    padding-left: 20px;
+   }
+
+   .find-doctor-btn button {
+    background-color: #00337f;
+    color: #fff;
+    padding-block: 15px;
+    padding-inline: 20px;
+    border-radius: 50px;
+    font-size: 18px;
+   }
+   .find-doctor-btn {
+    padding-block: 40px;
+   }
+
+   .menu-section2 {
+    background-color: rgb(250, 240, 228);
+    padding-top: 20px;
+    padding-inline: 30px;
+    padding-bottom: 410px;
+   }
+   .careers {
+    display: flex;
+    padding-bottom: 30px;
+   }
+   .careers p {
+    color: #00337f;
+    padding-left: 20px;
+   }
+   .careers i {
+    color: #00337f;
+   }
+   .english {
+    display: flex;
+   }
+   .english P {
+    color: #00337f;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .english i {
+    color: #00337f;
+   }
+}
+
+
+
+@media (max-width:520px) {
+    .menu-header-logo{
+        width: 130px;
+    }
+    .search-icon i {
+        font-size: 18px;
+        color: #00337f;
+    } 
+    .exit-icon i {
+        font-size: 18px;
+        color: #00337f;
+    }
+
+
+    .get-care {
+        display: flex;
+        justify-content: space-between;
+    }  
+    .location {
+        display: flex;
+        justify-content: space-between;
+    } 
+    .patients {
+        display: flex;
+        justify-content: space-between;
+    }
+    .my-chart {
+        display: flex;
+        justify-content: space-between;
+    }
+    .find-doctor-btn {
+        text-align: center;
+    }
+
+
+    .menu-section2 {
+        padding-bottom: 30px;
+    }
+}

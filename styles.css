@@ -182,6 +182,9 @@ body {
 .menu-btn {
     display: none;
 }
+.menu-btn:hover {
+    cursor: pointer;
+}
 
 .search-form {
     position: absolute;
@@ -641,11 +644,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid transparent;
 }
 
 .FAQ-content1-heading:hover {
-    border-bottom: 3px solid #011d46;
     cursor: pointer;
+    border-bottom: 3px solid #011d46;
 }
 
 .FAQ-content1-heading h4 {
@@ -1266,6 +1270,7 @@ body {
 
     .menu-btn i {
         font-size: 20px;
+        color: #2d5899;
     }
 
     #primary-care {
@@ -1298,6 +1303,7 @@ body {
     }
 
 
+
     .health-journey-container {
         padding-inline: 90px;
     }
@@ -1305,24 +1311,10 @@ body {
         font-size: 35px;
     }
     .health-jouney-list1 p {
-        border-bottom: 1px dashed black;
-        padding-block: 20px;
         width: 280px;
-        font-family: roboto;
-        font-weight: 400;
-        font-size: 17px;
-        color: rgb(56, 50, 50);
-    }
-    
+    } 
     .health-jouney-list2 p {
-        border-bottom: 1px dashed black;
-        padding-block: 20px;
-        margin-left: 40px;
         width: 280px;
-        font-family: roboto;
-        font-weight: 400;
-        font-size: 17px;
-        color: rgb(56, 50, 50);
     }
     .health-journey-text p {
         font-size: 16px;
@@ -1431,6 +1423,15 @@ body {
     .FAQ-content3-heading h4 {
         font-size: 17px;
     }
+    .FAQ-content3-lists li {
+        font-size: 16px;
+    }
+    .FAQ-content3-para2 p {
+        font-size: 16px;
+    }
+    .FAQ-content3-para3 p {
+        font-size: 16px;
+    }
 
 
 
@@ -1483,7 +1484,7 @@ body {
 
 
     #footer {
-        padding-inline: 90px;
+        padding-inline: 50px;
     }
     .footer-image {
         width: 150px;
@@ -1494,7 +1495,7 @@ body {
         gap: 30px;
     }
     .footer-contents {
-        gap: 100px;
+        gap: 50px;
     }
 
     .copyrights-contents {
@@ -1504,5 +1505,302 @@ body {
     }
     .copyrights-contents p {
         font-size: 10px;
+    }
+}
+
+
+@media (max-width : 520px)  {
+
+    #primary-care-main-header {
+        padding-inline: 20px;
+    }
+    .header-image {
+        width: 110px;
+        padding-block: 15px;
+    }
+
+    
+    #primary-care {
+        padding-inline: 20px;
+    }
+    .prime-care-text h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .prime-care-text p {
+        font-size: 20px;
+    }
+    .prime-care-button {
+        text-align: center;
+    }
+    .prim-care-doctor-btn {
+        font-size: 15px;
+    }
+    .prime-care-1-image {
+        width: 250px;
+    }
+
+
+    .health-journey-container {
+        margin-top: 50px;
+        padding-inline: 30px;
+    }
+
+    .health-journey-headings h1 {
+        font-size: 27px;
+        line-height: 1.5;
+    }
+    .health-journey-headings p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .health-jouney-lists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .health-jouney-list1 p {
+        width: 250px;
+    } 
+    .health-jouney-list2 p {
+        margin-left: 0px;
+        width: 250px;
+    }
+    .health-journey-text p {
+        font-weight: 400;
+        line-height: 1.6;
+    }
+
+
+    
+    #new-patients {
+        padding-inline: 25px;
+    }
+    .new-patients-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-inline: 20px;
+        gap: 20px;
+    }
+    .new-patients-text-content {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .new-patients-text h1 {
+        font-size: 28px;
+    }
+    .new-patients-text p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .new-patients-btn-content button{
+        width: 250px;
+    }
+
+
+
+    #conditions {
+        padding-inline: 25px;
+    }
+    .conditions-heading h1 {
+        font-size: 30px;
+    }
+    .conditions-heading p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .conditions-list-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .conditions-list1 p {
+        width: 250px;
+        font-weight: 500;
+    } 
+    .conditions-list2 p {
+        width: 250px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+
+
+
+    #health-control {
+        padding-inline: 25px;
+    }
+    .health-control-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .health-control-text h1 {
+        font-size: 32px;
+    }
+    
+    .health-control-text p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .health-control-btn {
+        font-size: 15px;
+    }
+    .health-control-image {
+        width: 220px;
+    }
+
+
+
+    #about {
+        padding-inline: 25px;
+        padding-bottom: 60px;
+    }
+    .about-heading h1 {
+        font-size: 32px;
+    }
+    .about-heading p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .FAQ-content1-heading h4 {
+        font-size: 17px;
+    }
+    .FAQ-content1-heading i {
+        padding-left: 5px;
+    }
+    .FAQ-content2-heading h4 {
+        font-size: 17px;
+    }
+    .FAQ-content2-heading i {
+        padding-left: 5px;
+    }
+    .FAQ-content3-heading h4 {
+        font-size: 17px;
+    }
+    .FAQ-content3-heading i {
+        padding-left: 5px;
+    }
+    .FAQ-content3-para p {
+        font-size: 16px;
+    }
+
+
+
+    #doctor-selection {
+        padding-inline: 25px;
+    }
+    .doctor-selection-container {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+    .doctor-selection-content h5 {
+        letter-spacing:1px;
+        line-height: 1.5;
+    }
+    .doctor-selection-content h1 {
+        font-size: 33px;
+        line-height: 1.5;
+    }
+    .doctor-selection-container p {
+        font-size: 16px;
+    }
+    .doctor-selection-image {
+        width: 220px;
+        height: 180px;
+    }
+
+
+
+    #health-living {
+        padding-bottom: 60px;
+    }
+    .health-heading h1 {
+        padding-inline: 25px;
+        padding-top: 60px;
+    }
+    .health-heading h1 {
+        font-size: 33px;
+    }
+    .health-container {
+        overflow: scroll;
+        padding-inline: 25px;
+    }
+    .health-image1 {
+        width: 270px;
+    }
+    .heath-text1 h4 {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .heath-text1 p {
+        font-size: 15px;
+    }
+    .health-image2 {
+        width: 270px;
+    }
+    .health-text2 h4 {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .health-text2 p {
+        font-size: 15px;
+    }
+    .health-image3 {
+        width: 270px;
+    }
+    .health-text3 h4 {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .health-text3 p {
+        font-size: 15px;
+    }
+    .health-image4 {
+        width: 270px;
+    }
+    .health-text4 h4 {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .health-text4 p {
+        font-size: 15px;
+    }
+
+
+    #footer {
+        padding-inline: 25px;
+    }
+    .footer-contents {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-content1 p {
+        padding-bottom: 20px;
+    }
+    .footer-content2 p {
+        padding-bottom: 20px;
+    }
+    .footer-content3 p {
+        padding-bottom: 20px;
+    }
+    .footer-section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .copyrights-contents {
+        display: flex;
+        flex-direction: column;
+    }
+    .copyrights-contents p {
+        font-size: 13px;
     }
 }

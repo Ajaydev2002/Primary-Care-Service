@@ -15,6 +15,7 @@ body {
     margin: auto;
 }
 
+
 #find-doctor-header {
     padding-inline: 120px;
 }
@@ -153,6 +154,9 @@ body {
 }
 .search-icon:hover {
     cursor: pointer;
+}
+.menu-btn {
+    display: none;
 }
 
 
@@ -356,7 +360,6 @@ body {
 .accepting-patients {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 10px;
 }
 .accepting-patients p {
@@ -367,7 +370,6 @@ body {
 .schedule-online {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 10px;
 }
 .schedule-online p {
@@ -468,6 +470,9 @@ body {
     padding-block: 20px;
     align-items: center;
 }
+.doctor1-section1 {
+    display: flex;
+}
 .doctor1-image {
     width: 140px;
     height: 180px;
@@ -544,127 +549,6 @@ body {
 }
 
 
-.doctor2 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor3 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor4 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor5 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor6 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor7 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor8 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor9 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor10 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor11 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor12 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor13 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor14 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor15 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor16 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor17 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor18 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor19 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor20 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor21 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor22 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor23 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor24 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-.doctor25 {
-    display: flex;
-    padding-block: 20px;
-    align-items: center;
-}
-
 
 
 #Specialities {
@@ -719,6 +603,15 @@ body {
 .footer-section1 {
     display: flex;
     justify-content: space-between;
+}
+.footer-section1 {
+    display: flex;
+    gap: 150px;
+}
+
+.footer-contents {
+    display: flex;
+    gap: 150px;
 }
 .footer-content1 h4 {
     color: #b5591c;
@@ -813,4 +706,389 @@ body {
 .right-line{
     border-right: 1px solid #706c6c;
     margin-block: 1px;
+}
+
+
+
+
+
+@media (max-width:920px) {
+
+    #find-doctor-header {
+        padding-inline: 40px;
+    }
+    .get-care {
+        display: none;
+    }
+    .location {
+        display: none;
+    }
+    .patient-resource {
+        display: none;
+    }
+    .mychart{
+        display: none;
+    }
+    .find-doctor-btn {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+
+
+    #find-a-doctor {
+        padding-inline: 90px;
+    }
+    .find-a-doctor-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-heading h1 {
+        font-size: 45px;
+    }
+    .insurance-img{
+        width: 600px;
+        padding-top: 30px;
+    }
+    .find-by-name input {
+        width: 600px;
+        height: 80px;
+    }    
+    .find-by-name ::placeholder {
+        font-size: 19px;
+    }
+    .find-by-city input {
+        width: 600px;
+        height: 80px;
+    }
+    .find-by-city ::placeholder {
+        font-size: 19px;
+    }
+    .find-by-insurance input {
+        width: 550px;
+        height: 80px;
+    }
+    .find-by-insurance ::placeholder {
+        font-size: 20px;
+    }
+    .search-btn {
+        padding-block: 20px;
+        font-size: 20px;
+    }
+
+    .insurance-serch-bar input {
+        width: 550px;
+    }
+
+
+    #doctor-lists {
+        padding-inline: 90px;
+    }
+    .schedule-doctors-header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: normal;
+
+    }
+    .patients-shortlist {
+        display: flex;
+        flex-direction: column; 
+        align-items: normal;
+        gap: 10px;
+        padding-bottom: 10px;
+        background-color: #fff;
+        padding-inline: 20px;
+        padding-block: 10px;
+    }
+    .doctor-shortlist {
+        display: none;
+    }
+    .doctor1 {
+        display: flex;
+        row-gap: 20px;
+        flex-direction: column;
+        padding-block: 20px;
+        align-items: normal;    
+    }
+    .doctor1-section1 {
+        display: flex;
+        align-items: center;
+    }
+    .doctor1-image {
+        width: 180px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .doctor-details {
+        padding-left: 40px;
+        width: 400px;
+    }
+    .doctor-detail {
+        padding-bottom: 10px ;
+    }
+    .doctor-phone-num {
+        width: 620px;
+        margin-left: 0;
+    }
+    .doctor-phone-num button {
+        margin-block: 30px;
+    }
+
+
+
+    #Specialities {
+        padding-inline: 90px;
+    }
+    .Specialities-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-inline: 50px;
+    }
+    .Specialities-text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .Specialities-text p {
+        max-width: 750px;
+    }
+    .Specialities-btn  {
+        margin-bottom: 20px;
+        padding-inline: 100px;
+        font-size: 19px;
+    }
+
+
+
+    #footer {
+        padding-inline: 50px;
+    }
+    .footer-image {
+        width: 150px;
+    }
+    .footer-section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-contents {
+        gap: 100px;
+    }
+    .footer-section2 {
+        gap: 30px;
+    }
+    .copyrights-contents {
+        gap: 10px;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    .copyrights-contents p {
+        font-size: 10px;
+    }
+
+}
+
+
+@media (max-width:520px) {
+
+    #find-a-doctor {
+        padding-inline: 20px;
+    }
+    .find-a-doctor-header {
+        display: none;
+    }
+    .find-a-doctor-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .find-a-doctor-section1 {
+        text-align: center;
+    }
+    .form-heading h1 {
+        font-size: 45px;
+    }
+    .insurance-img{
+        width: 300px;
+    }
+    .find-by-name input {
+        width: 300px;
+        height: 60px;
+    }    
+    .find-by-name ::placeholder {
+        font-size: 14px;
+    }
+    .find-by-city input {
+        width: 300px;
+        height: 60px;
+    }
+    .find-by-city ::placeholder {
+        font-size: 14px;
+    }
+    .find-by-insurance input {
+        width: 250px;
+        height: 60px;
+    }
+    .find-by-insurance ::placeholder {
+        font-size: 14px;
+    }
+    .search-btn {
+        padding-block: 10px;
+        font-size: 15px;
+    }
+    .insurance-serch-bar input {
+        width: 230px;
+    }
+
+
+
+
+    #doctor-lists {
+        padding-inline: 25px;
+    }
+    .schedule-doctors-header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: normal;
+        padding-bottom: 15px;
+    }
+    .doctor-status-header {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .doctor-status {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .patients-status p {
+        padding-block: 8px;
+    }
+    .doctor-shortlist {
+        display: none;
+    }
+    .doctor1 {
+        display: flex;
+        row-gap: 20px;
+        flex-direction: column;
+        padding-block: 20px;
+        align-items: normal;    
+    }
+    .doctor1-section1 {
+        display: flex;
+        align-items: center;
+    }
+    .doctor1-image {
+        width: 80px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .doctor-details {
+        padding-left: 10px;
+        width: 200px;
+    }
+    .doctor-detail {
+        padding-bottom: 1px;
+    }
+    .doctor-detail h4 {
+        font-size: 8px;
+    }
+    .doctor-name {
+        padding-block: 5px;
+    }
+    .doctor-name h1 {
+        font-size: 16px;
+    }
+    .doctor-specalist p {
+        font-size: 10px;
+    }
+    .doctor-location {
+        padding-top: 5px;
+    }
+    .doctor-location p {
+        font-size: 12px;
+    }
+    .doctor-phone-num {
+        width: 270px;
+        margin-left: 0;
+    }
+    .doctor-phone-num button {
+        margin-block: 30px;
+    }
+
+
+
+    #Specialities {
+        padding-inline: 25px;
+    }
+    .Specialities-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-inline: 20px;
+    }
+    .Specialities-image {
+        width: 100px;   
+        padding-top: 30px;
+    }
+    .Specialities-text h1 {
+        font-size: 30px;
+    }
+    .Specialities-text p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .Specialities-text-content {
+        gap: 30px;
+    }
+    .Specialities-text p {
+        max-width: 800px;
+    }
+    .Specialities-btn  {
+        margin-bottom: 20px;
+        padding-inline: 50px;
+        font-size: 15px;
+    }
+
+
+
+    #footer {
+        padding-inline: 25px;
+    }
+    .footer-contents {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-content1 p {
+        padding-bottom: 15px;
+    }
+    .footer-content2 p {
+        padding-bottom: 15px;
+    }
+    .footer-content3-text p {
+        padding-bottom: 15px;
+    }
+
+    .footer-section2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .copyrights-contents {
+        display: flex;
+        flex-direction: column;
+    }
+    .copyrights-contents p {
+        padding-bottom: 0px;
+    }
 }
