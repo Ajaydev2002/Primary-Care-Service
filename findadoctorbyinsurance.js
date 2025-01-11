@@ -1,5 +1,7 @@
 const searchBtn = document.querySelector(".search-btn");
 const doctorList = document.querySelectorAll(".doctors"); 
+const acceptingNewPatients = document.querySelector(".accepting-patients");
+const doctors = document.querySelector(".doctor-detail");
 
 
 searchBtn.addEventListener("click", () => {
@@ -10,7 +12,7 @@ searchBtn.addEventListener("click", () => {
         if (dataTarget.includes(input)) {
             doctor.style.display = "block"; 
         } else {
-            doctor.style.display = "none"; 
+            doctor.style.display = "none";
         }
     });
 });
