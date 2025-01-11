@@ -1273,6 +1273,22 @@ body {
         color: #2d5899;
     }
 
+
+    .search-form {
+        right: 30px;
+    }
+    .search-form-content {
+        gap: 50px;
+    }
+    .serch-form-container {
+        width: 650px;
+    }
+    .serch-form-container input {
+        height: 55px;
+        width: 580px;
+    }
+    
+
     #primary-care {
         padding-inline: 90px;
         padding-block: 50px;
@@ -1518,6 +1534,20 @@ body {
         width: 110px;
         padding-block: 15px;
     }
+    .search-form {
+        right: 20px;
+    }
+    .search-form-content {
+        gap: 20px;
+    }
+    .serch-form-container {
+        width: 250px;
+    }
+    .serch-form-container input {
+        height: 55px;
+        width: 190px;
+    }
+
 
     
     #primary-care {

@@ -146,7 +146,6 @@ body {
 .find-btn:hover {
     cursor: pointer;
     background-color: #011d46;
-
 }
 .search-icon {
     font-size: 20px;
@@ -158,6 +157,7 @@ body {
 .menu-btn {
     display: none;
 }
+
 
 
 #find-a-doctor {
@@ -191,6 +191,10 @@ body {
     background-color: #fff;
     position: relative;
 }
+
+
+
+
 #insurance-form {
     display: flex;
     flex-direction: column;
@@ -272,6 +276,10 @@ body {
     margin-block: 30px;
     font-size: 16px;
 }
+.search-btn:hover {
+    cursor: pointer;
+    background-color: #011d46;
+}
 .insurance-img{
     width: 700px;
     padding-top: 145px;
@@ -346,6 +354,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-block: 30px;
+    align-items: center;
 }
 .total-result p {
     font-family: roboto;
@@ -356,11 +365,19 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    align-items: center;
 }
 .accepting-patients {
     display: flex;
     align-items: center;
     gap: 10px;
+    align-items: center;
+}
+.accepting-patients:hover {
+    cursor: pointer;
+}
+.accepting-patients input:hover {
+    cursor: pointer;
 }
 .accepting-patients p {
     font-family: roboto;
@@ -371,14 +388,18 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    align-items: center;
+}
+.schedule-online:hover {
+    cursor: pointer;
 }
 .schedule-online p {
     font-family: roboto;
     font-weight: 300;
     font-size: 17px;
 }
-.schedule-online input {
-    color: #011d46;
+.schedule-online input:hover {
+    cursor: pointer;
 }
 
 .available-doctors {
@@ -427,6 +448,28 @@ body {
 }
 
 
+.schedule-online-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+.schedule-image {
+    width: 180px;
+}
+.schedule-online-content h2 {
+    font-family: serif;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
 .schedule-doctors-header {
     display: flex;
     justify-content: space-between;
@@ -465,6 +508,9 @@ body {
 }
 
 
+.doctors {
+    display: none;
+}
 .doctor1 {
     display: flex;
     padding-block: 20px;
@@ -472,6 +518,7 @@ body {
 }
 .doctor1-section1 {
     display: flex;
+    align-items: center;
 }
 .doctor1-image {
     width: 140px;
@@ -546,6 +593,10 @@ body {
 }
 .phone-num i {
     padding-right: 12px;
+}
+.phone-num:hover {
+    cursor: pointer;
+    background-color: #011d46;
 }
 
 
@@ -778,8 +829,21 @@ body {
         font-size: 20px;
     }
 
+
+    .insurance-dropdown {
+        top: 180px;
+     }
     .insurance-serch-bar input {
-        width: 550px;
+        width: 555px;
+        height: 40px;
+    }
+    .insurance-dropdown-content {
+        height: 200px;
+        padding-inline: 10px;
+    }
+    .insurance-dropdown-content p {
+        padding-block: 10px;
+        font-size: 15px;
     }
 
 
