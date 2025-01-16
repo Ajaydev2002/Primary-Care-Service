@@ -403,7 +403,7 @@ body {
 
 .available-doctors {
     display: flex;
-    gap: 63px;
+    gap: 50px;
 }
 .reset {
     display: flex;
@@ -471,7 +471,6 @@ body {
 
 .schedule-doctors-header {
     display: flex;
-    justify-content: space-between;
     gap: 500px;
     background-color: #fff8ed;
     align-items: center;
@@ -615,7 +614,7 @@ body {
 .Specialities-text-content {
     display: flex;
     align-items: center;
-    gap: 240px;
+    gap: 310px;
 }
 
 .Specialities-image {
@@ -853,7 +852,6 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
     .doctor-status-header {
         display: flex;
@@ -866,21 +864,22 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;    
-        align-items: center;
     }
     .schedule-doctors-header{
         display: flex;
-        gap: 140px;
+        gap: 150px;
     }
     .patients-shortlist {
         display: flex;
         flex-direction: column; 
         align-items: normal;
-        gap: 10px;
+        gap: 8px;
         padding-bottom: 10px;
         background-color: #fff;
         padding-inline: 20px;
-        padding-block: 10px;
+        padding-block: 5px;
+        border: 1px solid grey;
+        border-radius: 10px;
     }
     .doctor-shortlist {
         display: none;
@@ -1054,21 +1053,45 @@ body {
         gap: 10px;
         align-items: normal;
         padding-bottom: 15px;
+        width: 80vw;
+    }
+    .doctor-list-container {
+        align-items: center;
     }
     .doctor-status-header {
         display: flex;
         flex-direction: column;
         gap: 15px;
         align-items: start;
+        width: 100%;
+        padding-inline: 15px;
     }
     .doctor-status {
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
         align-items: start;
+    }
+    .accepting-patients p {
+        font-size: 16px;
+    }
+    .schedule-online P {
+        font-size: 16px;
+    }
+    .available-doctor-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .patients-status p {
         padding-block: 8px;
+    }
+    .patients-shortlist h5 {
+        font-size: 14px;
+    }
+    .patients-shortlist p {
+        font-size: 14px;
     }
     .doctor-shortlist {
         display: none;
@@ -1078,11 +1101,12 @@ body {
         row-gap: 20px;
         flex-direction: column;
         padding-block: 20px;
-        align-items: normal;    
+        align-items: center;    
     }
     .doctor1-section1 {
         display: flex;
         align-items: center;
+        width: 80vw;
     }
     .doctor1-image {
         width: 80px;
@@ -1091,7 +1115,6 @@ body {
     }
     .doctor-details {
         padding-left: 10px;
-        width: 200px;
     }
     .doctor-detail {
         padding-bottom: 1px;
@@ -1115,7 +1138,7 @@ body {
         font-size: 12px;
     }
     .doctor-phone-num {
-        width: 280px;
+        width: 80vw;
         margin-left: 0;
     }
     .doctor-phone-num button {
