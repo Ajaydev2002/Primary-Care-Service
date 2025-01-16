@@ -1,20 +1,39 @@
 const searchBtn = document.querySelector(".search-btn");
 const doctorList = document.querySelectorAll(".doctors"); 
-const acceptingNewPatients = document.querySelector(".accepting-patients");
-const doctors = document.querySelector(".doctor-detail");
+const acceptingPatientsCheckbox = document.querySelector(".accepting-patients-checkbox");
+const scheduleOnlineCheckbox = document.querySelector(".schedule-online-checkbox");
+const scheduleOnlineContent = document.querySelector(".schedule-online-content");
 
-
-searchBtn.addEventListener("click", () => {
+const applyFilters = () => {
     const input = document.getElementById("insurance-input").value.trim().toLowerCase(); 
-    doctorList.forEach(doctor => {
-        const dataTarget = doctor.getAttribute("data-target").toLowerCase(); 
+    const showOnlyAccepting = acceptingPatientsCheckbox.checked;
+    const showOnlyOnline = scheduleOnlineCheckbox.checked;
+    let anyDoctorVisible = false;
 
-        if (dataTarget.includes(input)) {
-            doctor.style.display = "block"; 
-        } else {
-            doctor.style.display = "none";
+    doctorList.forEach(doctor => {
+        const dataTarget = doctor.getAttribute("data-target").toLowerCase();
+        const doctorDetail = doctor.querySelector(".doctor-detail h4");
+        const isAcceptingNewPatients = doctorDetail && doctorDetail.textContent.trim().toUpperCase() === "ACCEPTING NEW PATIENTS";
+        const isScheduleOnline = doctorDetail && doctorDetail.textContent.trim().toUpperCase() === "SCHEDULE ONLINE";
+
+        let shouldDisplay = dataTarget.includes(input);
+
+        if (showOnlyAccepting) {
+            shouldDisplay = shouldDisplay && isAcceptingNewPatients;
+        }
+        if (showOnlyOnline) {
+            shouldDisplay = shouldDisplay && isScheduleOnline;
+        }
+
+        doctor.style.display = shouldDisplay ? "block" : "none";
+        if (shouldDisplay) {
+            anyDoctorVisible = true;
         }
     });
-});
 
+    scheduleOnlineContent.style.display = anyDoctorVisible ? "none" : "block";
+};
 
+searchBtn.addEventListener("click", applyFilters);
+acceptingPatientsCheckbox.addEventListener("change", applyFilters);
+scheduleOnlineCheckbox.addEventListener("change", applyFilters);

@@ -371,7 +371,9 @@ body {
 .house-icon {
     color: #00337f;
 }
-
+.arrow-left {
+    display: none;
+}
 .arrow-right {
     color: grey;
     padding-inline: 12px;
@@ -1113,12 +1115,10 @@ body {
     padding-inline: 120px;
     background-color: #011d46;
 }
-
 .footer-section1 {
     display: flex;
     gap: 150px;
 }
-
 .footer-contents {
     display: flex;
     gap: 150px;
@@ -1129,104 +1129,84 @@ body {
     font-family: roboto;
     font-weight: 400;
 }
-
 .footer-content1 p {
     color: #fff;
     padding-bottom: 25px;
 }
-
 .footer-content1 p:hover {
     cursor: pointer;
     color: #bc5714;
 }
-
 .footer-content2 h4 {
     color: #b5591c;
     padding-bottom: 10px;
     font-family: roboto;
     font-weight: 400;
 }
-
 .footer-content2 p {
     color: #fff;
     padding-bottom: 25px;
 }
-
 .footer-content2 p:hover {
     cursor: pointer;
     color: #bc5714;
 }
-
 .footer-content3-text h4 {
     color: #b5591c;
     padding-bottom: 10px;
     font-family: roboto;
     font-weight: 400;
 }
-
 .footer-content3-text p {
     color: #fff;
     padding-bottom: 25px;
 }
-
 .footer-content3-text p:hover {
     cursor: pointer;
     color: #bc5714;
 }
-
 .footer-icon-heading h4 {
     color: #b5591c;
     padding-bottom: 10px;
     font-family: roboto;
     font-weight: 400;
 }
-
 .footer-icons {
     display: flex;
     justify-content: space-between;
-
 }
-
 .footer-icons i {
     font-size: 20px;
     color: #fff;
 }
-
 .footer-icons i:hover {
     cursor: pointer;
     color: #b5591c;
 }
-
 .footer-section1 {
     padding-block: 50px;
 }
-
 .footer-line {
     border-bottom: 1px solid #948d8d;
 }
-
 .footer-section2 {
     padding-block: 20px;
     display: flex;
     justify-content: space-between;
 }
-
 .copyrights-text p {
     font-size: 12px;
     color: #fff;
 }
-
 .copyrights-contents {
     display: flex;
     gap: 20px;
     color: #fff;
     font-size: 13px;
 }
-
 .copyrights-contents P {
     text-decoration: underline;
 }
-
 .right-line {
     border-right: 1px solid #706c6c;
     margin-block: 1px;
@@ -1304,18 +1284,34 @@ body {
     .house-icon {
         display: none;
     }
-
+    .arrow-left {
+        display: block;
+        margin-right: 15px;
+        color: #2d5899;
+    }
+    .arrow-right {
+       display: none;
+    }
+    .primary-care-para1 {
+        color: #00337f;
+        border-bottom: none;
+    }
     .primary-care-para2 {
         display: none;
     }
-
     .prime-care-text h1 {
         font-size: 48px;
         padding-bottom: 10px;
     }
-
     .prime-care-text p {
         font-size: 20px;
+    }
+    .prime-care-button {
+        text-align: center;
+    }
+    .prim-care-doctor-btn {
+        width: 100%;
+        font-size: 18px;
     }
 
 
@@ -1334,6 +1330,7 @@ body {
     }
     .health-journey-text p {
         font-size: 16px;
+        font-weight: 00;
     }
 
 
@@ -1362,11 +1359,9 @@ body {
     #conditions {
         padding-inline: 90px;
     }
-    
     .conditions-heading h1 {
         font-size: 40px;
     }
-    
     .conditions-heading p {
         font-size: 17px;
         padding-bottom: 20px;
@@ -1375,7 +1370,6 @@ body {
     .conditions-list1 p {
         width: 260px;
     }
-    
     .conditions-list2 p {
         width: 260px;
     }

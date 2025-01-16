@@ -388,7 +388,6 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    align-items: center;
 }
 .schedule-online:hover {
     cursor: pointer;
@@ -476,7 +475,7 @@ body {
     gap: 500px;
     background-color: #fff8ed;
     align-items: center;
-    border-bottom: 3px solid #f1e0c6;
+    border-bottom: 3px solid #f1efeb;
     padding-inline: 20px;
 }
 .patients-status h5 {
@@ -831,10 +830,10 @@ body {
 
 
     .insurance-dropdown {
-        top: 180px;
+        top: 245px;
      }
     .insurance-serch-bar input {
-        width: 555px;
+        width: 535px;
         height: 40px;
     }
     .insurance-dropdown-content {
@@ -850,12 +849,28 @@ body {
     #doctor-lists {
         padding-inline: 90px;
     }
-    .schedule-doctors-header{
+    .doctor-list-container {
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        align-items: normal;
-
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor-status-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        padding-block: 30px;
+        align-items: center;
+    }
+    .available-doctor-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;
+    }
+    .schedule-doctors-header{
+        display: flex;
+        gap: 140px;
     }
     .patients-shortlist {
         display: flex;
@@ -894,7 +909,7 @@ body {
         padding-bottom: 10px ;
     }
     .doctor-phone-num {
-        width: 620px;
+        width: 590px;
         margin-left: 0;
     }
     .doctor-phone-num button {
@@ -999,6 +1014,7 @@ body {
     .find-by-insurance input {
         width: 250px;
         height: 60px;
+        font-size: 16px;
     }
     .find-by-insurance ::placeholder {
         font-size: 14px;
@@ -1008,10 +1024,25 @@ body {
         font-size: 15px;
     }
     .insurance-serch-bar input {
-        width: 230px;
+        width: 235px;
     }
+    .insurance-dropdown {
+        top: 180px;
+     }
 
 
+     .schedule-online-content {
+        padding-top: 50px;
+     }
+     .schedule-image {
+        width: 150px;
+     }
+     .schedule-online-content h2 {
+        font-size: 20px;
+     }
+     .schedule-online-content p {
+        font-size: 14px;
+     }
 
 
     #doctor-lists {
@@ -1028,11 +1059,13 @@ body {
         display: flex;
         flex-direction: column;
         gap: 15px;
+        align-items: start;
     }
     .doctor-status {
         display: flex;
         flex-direction: column;
         gap: 5px;
+        align-items: start;
     }
     .patients-status p {
         padding-block: 8px;
@@ -1076,13 +1109,13 @@ body {
         font-size: 10px;
     }
     .doctor-location {
-        padding-top: 5px;
+        padding-top: 10px;
     }
     .doctor-location p {
         font-size: 12px;
     }
     .doctor-phone-num {
-        width: 270px;
+        width: 280px;
         margin-left: 0;
     }
     .doctor-phone-num button {
@@ -1106,7 +1139,7 @@ body {
         padding-top: 30px;
     }
     .Specialities-text h1 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .Specialities-text p {
         font-size: 13px;
