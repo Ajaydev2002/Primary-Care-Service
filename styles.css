@@ -1527,11 +1527,11 @@ body {
         gap: 20px;
     }
     .serch-form-container {
-        width: 250px;
+        width: 83vw;
     }
     .serch-form-container input {
         height: 55px;
-        width: 190px;
+        width: 65vw;
     }
 
 
