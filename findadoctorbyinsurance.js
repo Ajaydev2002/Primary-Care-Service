@@ -5,9 +5,10 @@ const scheduleOnlineCheckbox = document.querySelector(".schedule-online-checkbox
 const scheduleOnlineContent = document.querySelector(".schedule-online-content");
 
 const applyFilters = () => {
-    const input = document.getElementById("insurance-input").value.trim().toLowerCase(); 
+    const input = document.getElementById("insurance-input").value.trim().toLowerCase();
     const showOnlyAccepting = acceptingPatientsCheckbox.checked;
     const showOnlyOnline = scheduleOnlineCheckbox.checked;
+    const showBoth = showOnlyAccepting && showOnlyOnline; 
     let anyDoctorVisible = false;
 
     doctorList.forEach(doctor => {
@@ -16,14 +17,14 @@ const applyFilters = () => {
         const isAcceptingNewPatients = doctorDetail && doctorDetail.textContent.trim().toUpperCase().includes("ACCEPTING NEW PATIENTS");
         const isScheduleOnline = doctorDetail && doctorDetail.textContent.trim().toUpperCase().includes("SCHEDULE ONLINE");
 
-        let shouldDisplay = dataTarget.includes(input);
+        let shouldDisplay = dataTarget.includes(input); 
 
-        if (showOnlyAccepting && showOnlyOnline) {
+        if (showBoth) {
             shouldDisplay = shouldDisplay && isAcceptingNewPatients && isScheduleOnline;
         } else if (showOnlyAccepting) {
-            shouldDisplay = shouldDisplay && isAcceptingNewPatients
+            shouldDisplay = shouldDisplay && isAcceptingNewPatients && !isScheduleOnline;
         } else if (showOnlyOnline) {
-            shouldDisplay = shouldDisplay && isScheduleOnline;
+            shouldDisplay = shouldDisplay && isScheduleOnline && !isAcceptingNewPatients;
         }
 
         doctor.style.display = shouldDisplay ? "block" : "none";
@@ -34,6 +35,7 @@ const applyFilters = () => {
 
     scheduleOnlineContent.style.display = anyDoctorVisible ? "none" : "block";
 };
+
 
 searchBtn.addEventListener("click", applyFilters);
 acceptingPatientsCheckbox.addEventListener("change", applyFilters);
