@@ -864,10 +864,12 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;    
+        align-items: center;
     }
     .schedule-doctors-header{
         display: flex;
         gap: 150px;
+        width: 77vw;
     }
     .patients-shortlist {
         display: flex;
@@ -908,7 +910,7 @@ body {
         padding-bottom: 10px ;
     }
     .doctor-phone-num {
-        width: 590px;
+        width: 77vw;
         margin-left: 0;
     }
     .doctor-phone-num button {
