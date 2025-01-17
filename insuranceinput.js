@@ -1,5 +1,6 @@
 const insuranceInput = document.getElementById("insurance-input");
 const dropdownItems = document.querySelectorAll(".inputItem");
+const inputItemCheckbox = document.querySelector(".inputItem-checkbox");
 
 
 dropdownItems.forEach(item => {

@@ -405,6 +405,9 @@ body {
     display: flex;
     gap: 50px;
 }
+.resetall {
+    display: none;
+}
 .reset {
     display: flex;
     align-items: center;
@@ -422,7 +425,7 @@ body {
 }
 .doctor-filters p {
     font-family: roboto;
-    font-weight: 300;
+    font-weight: 400;
     color: #5b5d5f;
     font-size: 13px;
     padding-block: 30px;
@@ -444,6 +447,13 @@ body {
     font-weight: 300;
     color: #b5591c;
     padding-bottom: 35px;
+}
+.short-by-status p {
+    font-family: roboto;
+    font-weight: 300;
+    color: #00337f;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 

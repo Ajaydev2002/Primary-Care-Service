@@ -3,6 +3,7 @@ const doctorList = document.querySelectorAll(".doctors");
 const acceptingPatientsCheckbox = document.querySelector(".accepting-patients-checkbox");
 const scheduleOnlineCheckbox = document.querySelector(".schedule-online-checkbox");
 const scheduleOnlineContent = document.querySelector(".schedule-online-content");
+const resetAll = document.querySelector(".resetall");
 
 const applyFilters = () => {
     const input = document.getElementById("insurance-input").value.trim().toLowerCase();
@@ -40,3 +41,7 @@ const applyFilters = () => {
 searchBtn.addEventListener("click", applyFilters);
 acceptingPatientsCheckbox.addEventListener("change", applyFilters);
 scheduleOnlineCheckbox.addEventListener("change", applyFilters);
+
+searchBtn.addEventListener("click", () => {
+    resetAll.style.display = "block";
+})

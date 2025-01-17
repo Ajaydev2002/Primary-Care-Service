@@ -164,24 +164,35 @@
                 <div class="available-doctors">
 
                     <div class="doctor-shortlist">
-                        <div class="reset">
-                            <p>Reset All</p>
-                            <i class="fa-regular fa-circle-xmark"></i>
+                        <div class="resetall">
+                            <div class="reset">
+                                <p>Reset All</p>
+                                <i class="fa-regular fa-circle-xmark"></i>
+                            </div>
                         </div>
                         <div class="dropdown-selection"></div>
                         <div class="doctor-filters">
                             <p>Filters & sorting apply upon selection.</p>
                         </div>
                         <div class="short-by-status">
-                            <h4>SORT BY</h4>
+                            <h4>FILTER BY</h4>
+                            <P>Distance</P>
                             <div class="status-selection">
                                 <div>
-                                    <input type="radio">
-                                    <label>Relevancy</label>
+                                    <input type="radio" name="status-selection">
+                                    <label>Any</label>
                                 </div>
                                 <div>
-                                    <input type="radio">
-                                    <label>Next available</label>
+                                    <input type="radio" name="status-selection">
+                                    <label>Within 2 miles</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="status-selection">
+                                    <label>Within 5 miles</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="status-selection">
+                                    <label>Within 10 miles</label>
                                 </div>
                             </div>
                         </div>
