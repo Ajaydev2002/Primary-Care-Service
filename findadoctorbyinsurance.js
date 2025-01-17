@@ -13,15 +13,16 @@ const applyFilters = () => {
     doctorList.forEach(doctor => {
         const dataTarget = doctor.getAttribute("data-target").toLowerCase();
         const doctorDetail = doctor.querySelector(".doctor-detail h4");
-        const isAcceptingNewPatients = doctorDetail && doctorDetail.textContent.trim().toUpperCase() === "ACCEPTING NEW PATIENTS";
-        const isScheduleOnline = doctorDetail && doctorDetail.textContent.trim().toUpperCase() === "SCHEDULE ONLINE";
+        const isAcceptingNewPatients = doctorDetail && doctorDetail.textContent.trim().toUpperCase().includes("ACCEPTING NEW PATIENTS");
+        const isScheduleOnline = doctorDetail && doctorDetail.textContent.trim().toUpperCase().includes("SCHEDULE ONLINE");
 
         let shouldDisplay = dataTarget.includes(input);
 
-        if (showOnlyAccepting) {
-            shouldDisplay = shouldDisplay && isAcceptingNewPatients;
-        }
-        if (showOnlyOnline) {
+        if (showOnlyAccepting && showOnlyOnline) {
+            shouldDisplay = shouldDisplay && isAcceptingNewPatients && isScheduleOnline;
+        } else if (showOnlyAccepting) {
+            shouldDisplay = shouldDisplay && isAcceptingNewPatients
+        } else if (showOnlyOnline) {
             shouldDisplay = shouldDisplay && isScheduleOnline;
         }
 
