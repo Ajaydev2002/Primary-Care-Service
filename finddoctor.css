@@ -203,6 +203,9 @@ body {
 .find-by-name {
     border-bottom: 1.5px solid #d9e2f0;
 }
+.find-by-name:hover {
+    border-bottom: 1.5px solid #005de9;
+}
 .find-by-name input {
     width: 520px;
     height: 65px;
@@ -220,6 +223,9 @@ body {
 }
 .find-by-city {
     border-bottom: 1.5px solid #d9e2f0;
+}
+.find-by-city:hover {
+    border-bottom: 1.5px solid #005de9;
 }
 .find-by-city input {
     width: 520px;
@@ -256,6 +262,9 @@ body {
 }
 .find-by-insurance {
     border-bottom: 1.5px solid #d9e2f0;
+}
+.find-by-insurance:hover {
+    border-bottom: 1.5px solid #005de9;
 }
 .find-by-insurance i {
     padding-right: 20px;
@@ -330,6 +339,9 @@ body {
 .inputItem {
     display: flex;
     border: 2px solid transparent;
+}
+.inputItem input:hover {
+    cursor: pointer;
 }
 .inputItem:hover {
     cursor: pointer;
@@ -408,10 +420,14 @@ body {
 .resetall {
     display: none;
 }
-.reset {
+.reset-btn {
     display: flex;
     align-items: center;
     gap: 10px;
+    background-color: #fff;
+}
+.reset-btn:hover {
+    cursor: pointer;
 }
 .reset p {
     color: #00337f;
@@ -433,6 +449,9 @@ body {
 .status-selection {
     display: flex;
     flex-direction: column;
+}
+.status-selection input:hover {
+    cursor: pointer;
 }
 .status-selection label {
     font-family: roboto;
